@@ -1,6 +1,7 @@
 {
   "name": "adorable-css-to-unocss",
-  "version": "0.0.1",
+  "description": "Make it easy to use some rules of 'adorable-css' on 'unocss'",
+  "version": "0.0.2",
   "main": "dist/index.js",
   "files": [
     "dist"
