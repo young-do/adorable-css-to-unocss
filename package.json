@@ -2,6 +2,9 @@
   "name": "adorable-css-to-unocss",
   "version": "0.0.1",
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "license": "MIT",
   "scripts": {
     "build": "rm -rf ./dist && tsc",
