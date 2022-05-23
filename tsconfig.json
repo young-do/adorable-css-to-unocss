@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+
+    "target": "esnext",
+    "module": "commonjs" /* Specify what module code is generated. */,
+    "lib": ["esnext"],
+    "declaration": true /* Generate .d.ts files from TypeScript and JavaScript files in your project. */,
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables `allowSyntheticDefaultImports` for type compatibility. */,
+    "strict": true /* Enable all strict type-checking options. */
+  },
+  "exclude": ["./dist/**/*", "./example/**/*", "**/*.test.ts"]
+}
