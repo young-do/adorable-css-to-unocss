@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+
+    "target": "esnext",
+    "module": "esnext" /* Specify what module code is generated. */,
+    "lib": ["esnext"],
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "strict": true /* Enable all strict type-checking options. */
+  },
+  "include": ["./src/"]
+}
