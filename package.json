@@ -16,12 +16,13 @@
     "build": "rm -rf ./dist && tsup src/index.ts --format esm,cjs --dts",
     "dev": "tsup src/index.ts"
   },
-  "dependencies": {
-    "unocss": "^0.34.0"
-  },
   "devDependencies": {
     "prettier": "^2.6.2",
     "tsup": "^5.12.8",
-    "typescript": "^4.6.4"
+    "typescript": "^4.6.4",
+    "unocss": "^0.34.0"
+  },
+  "peerDependencies": {
+    "unocss": "^0.34.0"
   }
 }
